@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "Big Think Consulting partners with ambitious leaders to develop transformative strategies, drive sustainable growth, and navigate complex change with confidence.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Big Think Consulting",
