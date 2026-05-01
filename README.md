@@ -1,65 +1,57 @@
-# Beautiful Shadcn UI Landing Page
+# Big Think Consulting
 
-A modern, responsive landing page template built with Next.js, Tailwind CSS, and Shadcn UI, and Shadcn UI Blocks.
+Website for Big Think Consulting — a strategy and management consulting firm. Built with Next.js 15, Tailwind CSS, and Shadcn UI. Exports as a fully static site.
 
-## Demo
+## Tech Stack
 
-[Live Demo](https://shadcn-ui-landing-page.vercel.app/)
+- **Framework**: Next.js 15 (static export)
+- **Styling**: Tailwind CSS 4.0
+- **Components**: Shadcn UI
+- **Dark mode**: next-themes
 
-## Preview
+## Development
 
-![Preview](./public/page-preview.png)
-
-## Features
-
-- 🎨 Modern and clean design
-- 📱 Fully responsive layout
-- 🎯 Built with Next.js 15
-- 💅 Styled with Tailwind CSS [`3.4`](https://github.com/akash3444/shadcn-ui-landing-page/tree/tailwind-v3) & [`4.0`](https://github.com/akash3444/shadcn-ui-landing-page)
-- 🧩 Built with [Shadcn UI](https://ui.shadcn.com) and [Shadcn UI Blocks](https://shadcnui-blocks.com)
-- 🌙 Dark mode support
-
-## Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/akash3444/shadcn-ui-landing-page.git
-cd shadcn-ui-landing-page
-```
-
-2. To use Tailwind CSS v3.4:
-
-- Switch to the `tailwind-v3` branch:
-
-```bash
-git checkout `tailwind-v3`
-```
-
-3. Install dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+Start the dev server:
 
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Customization
+## Building
 
-1. Replace the placeholder images with your own content.
-2. Modify the text and styles in the components to match your brand and messaging.
-3. Add your own features and sections as needed.
+Generate the static site into `out/`:
 
-## Why this template?
+```bash
+npm run build
+```
 
-This project is a base template for a landing page. It is built with Next.js, Tailwind CSS, Shadcn UI, and Shadcn UI Blocks. It is a great starting point for a landing page. You can customized the content and media files as per your needs. It is not intended to be a complete solution for a landing page. It is intended to be a starting point for a landing page.
+The `out/` directory can be deployed to any static host — Vercel, Netlify, Cloudflare Pages, S3, GitHub Pages, etc.
 
-## Contributing
+## Project Structure
 
-If you have any suggestions or improvements, please create an issue or submit a pull request.
+```
+app/
+  layout.tsx      # Root layout and SEO metadata
+  page.tsx        # Home page
+components/
+  hero.tsx        # Hero section
+  features.tsx    # Services section
+  pricing.tsx     # Pricing tiers
+  faq.tsx         # FAQ accordion
+  testimonial.tsx # Client testimonials carousel
+  footer.tsx      # Footer
+  navbar/         # Navigation bar and menu
+public/           # Static assets
+```
+
+## Content
+
+All user-facing content lives directly in the component files as data arrays at the top of each file — no CMS or external data source. To update copy, edit the relevant component.
