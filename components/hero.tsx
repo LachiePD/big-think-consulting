@@ -37,10 +37,10 @@ const Hero = () => {
         </div>
         <div className="relative lg:max-w-lg xl:max-w-xl w-full bg-accent rounded-xl aspect-square">
           <Image
-            src="/placeholder.svg"
+            src="/bigthinkLogo.png"
             fill
-            alt=""
-            className="object-cover rounded-xl"
+            alt="Big Think"
+            className="object-contain rounded-xl p-8"
           />
         </div>
       </div>
