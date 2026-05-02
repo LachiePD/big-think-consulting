@@ -6,50 +6,45 @@ import { CircleCheck } from "lucide-react";
 
 const plans = [
   {
-    name: "Discovery",
-    price: "$5,000",
-    description:
-      "A focused diagnostic to clarify your strategic position and identify your highest-value opportunities.",
+    name: "Equity Partnership Model",
+    price: "$0–$2K",
+    description: "Ideal for innovators with limited upfront capital.",
     features: [
-      "4–6 week engagement",
-      "Stakeholder interviews",
-      "Market & competitive analysis",
-      "Strategic options assessment",
-      "Executive readout & recommendations",
+      "Core MVP development",
+      "Basic UI/UX design",
+      "Essential feature implementation",
+      "3–4 weeks timeline",
+      "5–15% equity",
     ],
-    buttonText: "Start with Discovery",
+    buttonText: "Get Started",
   },
   {
-    name: "Engagement",
-    price: "$15,000",
-    isRecommended: true,
-    description:
-      "A full consulting engagement to develop and begin implementing your strategy.",
+    name: "Standard Development Model",
+    price: "$5K–$25K",
+    description: "For startups with moderate budgets.",
     features: [
-      "8–12 week engagement",
-      "Everything in Discovery",
-      "Strategy development workshops",
-      "Roadmap & implementation plan",
-      "Dedicated senior consultant",
-      "Bi-weekly leadership check-ins",
+      "Customized MVP development",
+      "Enhanced UI/UX",
+      "Integration of key functionalities",
+      "2–3 weeks timeline",
+      "Optional equity (2–5%)",
     ],
-    buttonText: "Start an Engagement",
+    buttonText: "Get Started",
     isPopular: true,
   },
   {
-    name: "Partnership",
-    price: "Custom",
-    description:
-      "An ongoing advisory relationship for organisations that want sustained strategic support.",
+    name: "Premium Development Model",
+    price: "$25K–$100K+",
+    description: "For funded startups.",
     features: [
-      "Ongoing retainer model",
-      "Everything in Engagement",
-      "Monthly strategy sessions",
-      "On-call executive advisory",
-      "Annual strategy refresh",
-      "Priority access to our team",
+      "Full-scale MVP development",
+      "Advanced features",
+      "Scalability considerations",
+      "Post-launch support",
+      "Custom timeline",
+      "No equity (unless negotiated)",
     ],
-    buttonText: "Discuss Partnership",
+    buttonText: "Contact Us",
   },
 ];
 
@@ -60,8 +55,13 @@ const Pricing = () => {
       className="max-w-(--breakpoint-lg) mx-auto py-12 xs:py-20 px-6"
     >
       <h1 className="text-4xl xs:text-5xl font-semibold text-center tracking-tight">
-        Pricing
+        Launch Your MVP
       </h1>
+      <p className="mt-4 text-center text-muted-foreground max-w-2xl mx-auto xs:text-lg">
+        Tailored solutions for every budget. Whether you&apos;re a visionary with a
+        groundbreaking idea or a startup ready to scale, Agfluence offers
+        flexible MVP development models to suit your needs.
+      </p>
       <div className="mt-8 xs:mt-14 grid grid-cols-1 lg:grid-cols-3 items-center gap-8 lg:gap-0">
         {plans.map((plan) => (
           <div
