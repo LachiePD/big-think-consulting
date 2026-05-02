@@ -9,34 +9,34 @@ import { PlusIcon } from "lucide-react";
 
 const faq = [
   {
-    question: "What types of organisations do you work with?",
+    question: "What types of websites do you build?",
     answer:
-      "We work with a broad range of organisations — from growth-stage businesses to large enterprises — across sectors including professional services, technology, retail, and financial services. What they share is ambition and a willingness to think differently.",
+      "We build all types — from simple portfolio and brochure sites to e-commerce stores, membership platforms, and web applications. We work with startups, small businesses, and growing companies across all industries.",
   },
   {
-    question: "How long does a typical engagement take?",
+    question: "How long does it take to build a website?",
     answer:
-      "It depends on the scope of the work. A focused strategy project might run 6–10 weeks, while a deeper transformation engagement could span several months. We scope every project carefully and are transparent about timelines from the outset.",
+      "A standard business website typically takes 2–4 weeks from kick-off to launch. Larger or more complex projects can take longer. We provide a clear timeline before we start, and keep you updated throughout.",
   },
   {
-    question: "What industries do you specialise in?",
+    question: "Do you offer website hosting?",
     answer:
-      "Our consultants have deep experience across professional services, technology, financial services, retail, and healthcare. That said, our approach is built around rigorous thinking and disciplined methodology — capabilities that translate across sectors.",
+      "Yes. We offer managed hosting on fast, reliable infrastructure. We handle setup, security, updates, and monitoring — so your site stays up and running without you having to think about it.",
   },
   {
-    question: "How do you measure the success of an engagement?",
+    question: "Can you work with my existing WordPress site?",
     answer:
-      "We agree on clear outcomes and success metrics at the start of every engagement. Success for us means tangible impact — whether that’s market share gained, costs reduced, decision-making improved, or a strategy that actually gets implemented.",
+      "Absolutely. We redesign, rebuild, and maintain WordPress sites of all kinds — whether you need a refresh, new functionality, a plugin fix, or ongoing support. We're comfortable with WordPress at any level.",
   },
   {
-    question: "Do you offer short-term or project-based work?",
+    question: "Does SEO come with the website?",
     answer:
-      "Yes. While some clients engage us on an ongoing advisory basis, many prefer a defined project with a clear brief and deliverables. We’re comfortable with both and will recommend the model that best suits your situation.",
+      "Every website we build includes basic on-page SEO as standard — clean structure, meta tags, fast load times, and mobile optimisation. We also offer dedicated SEO packages for businesses looking to grow their organic search visibility over time.",
   },
   {
-    question: "How do I start working with Big Think Consulting?",
+    question: "How do I get started?",
     answer:
-      "The best first step is a conversation. Reach out via our contact page and we’ll set up an initial call to understand your situation. There’s no obligation — we want to make sure we’re the right fit before either of us commits.",
+      "Just get in touch via our contact page or hit the 'Get a Free Quote' button. We'll have a quick call to understand your project and put together a proposal — no obligation, no jargon.",
   },
 ];
 
@@ -50,7 +50,7 @@ const FAQ = () => {
         Frequently Asked Questions
       </h2>
       <p className="mt-1.5 md:text-center xs:text-lg text-muted-foreground">
-        Common questions about working with Big Think Consulting.
+        Common questions about working with Big Think.
       </p>
 
       <div className="min-h-[550px] md:min-h-[320px] xl:min-h-[300px]">
