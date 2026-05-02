@@ -9,46 +9,46 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://big-think-consulting.onrender.com"),
-  title: "Big Think | Web Design, Hosting & Digital Services",
+  metadataBase: new URL("https://bigthink.consulting"),
+  title: "Big Think Consulting | Strategy & Management Consulting",
   description:
-    "Big Think builds fast, beautiful websites and digital solutions — custom web design, managed hosting, SEO, WordPress development, and mobile app development.",
+    "Big Think Consulting partners with ambitious leaders to develop transformative strategies, drive sustainable growth, and navigate complex change with confidence.",
   keywords: [
-    "Big Think",
-    "Web Design",
-    "Web Development",
-    "Website Design",
-    "SEO",
-    "WordPress",
-    "Mobile App Development",
-    "Web Hosting",
-    "Digital Services",
-    "Website Maintenance",
+    "Big Think Consulting",
+    "Management Consulting",
+    "Strategy Consulting",
+    "Business Strategy",
+    "Organisational Design",
+    "Change Management",
+    "Executive Advisory",
+    "Business Growth",
+    "Performance Improvement",
+    "Market Analysis",
   ],
   openGraph: {
     type: "website",
-    siteName: "Big Think",
+    siteName: "Big Think Consulting",
     locale: "en_US",
-    url: "https://big-think-consulting.onrender.com",
-    title: "Big Think | Web Design, Hosting & Digital Services",
+    url: "https://bigthink.consulting",
+    title: "Big Think Consulting",
     description:
-      "Big Think builds fast, beautiful websites and digital solutions — custom web design, managed hosting, SEO, WordPress development, and mobile app development.",
+      "Big Think Consulting partners with ambitious leaders to develop transformative strategies, drive sustainable growth, and navigate complex change with confidence.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Big Think",
+        alt: "Big Think Consulting",
       },
     ],
   },
   authors: [
     {
-      name: "Big Think",
-      url: "https://big-think-consulting.onrender.com",
+      name: "Big Think Consulting",
+      url: "https://bigthink.consulting",
     },
   ],
-  creator: "Big Think",
+  creator: "Big Think Consulting",
   icons: [
     {
       rel: "icon",

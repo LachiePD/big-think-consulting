@@ -9,29 +9,29 @@ const Hero = () => {
       <div className="max-w-(--breakpoint-xl) w-full flex flex-col lg:flex-row mx-auto items-center justify-between gap-y-14 gap-x-10 px-6 py-12 lg:py-0">
         <div className="max-w-xl">
           <Badge className="rounded-full py-1 border-none">
-            Web Design & Digital Services
+            Strategy & Management Consulting
           </Badge>
           <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl font-semibold leading-[1.2]! tracking-tight">
-            Websites That Work As Hard As You Do
+            Bold Thinking for Complex Business Challenges
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
-            Big Think builds fast, beautiful websites and digital solutions —
-            from custom web design and hosting to SEO, WordPress, and mobile
-            app development.
+            Big Think Consulting partners with ambitious leaders to develop
+            transformative strategies, drive sustainable growth, and navigate
+            change with confidence.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center gap-4">
             <Button
               size="lg"
               className="w-full sm:w-auto rounded-full text-base"
             >
-              Get a Free Quote <ArrowUpRight className="h-5! w-5!" />
+              Book a Consultation <ArrowUpRight className="h-5! w-5!" />
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="w-full sm:w-auto rounded-full text-base shadow-none"
             >
-              <CirclePlay className="h-5! w-5!" /> View Our Work
+              <CirclePlay className="h-5! w-5!" /> View Case Studies
             </Button>
           </div>
         </div>

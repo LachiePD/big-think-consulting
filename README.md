@@ -1,8 +1,6 @@
 # Big Think Consulting
 
-Website for Big Think — a web services company offering web design, hosting, SEO, WordPress development, and mobile app development. Built with Next.js 15, Tailwind CSS, and Shadcn UI. Exports as a fully static site.
-
-**Live site:** https://big-think-consulting.onrender.com
+Website for Big Think Consulting — a strategy and management consulting firm. Built with Next.js 15, Tailwind CSS, and Shadcn UI. Exports as a fully static site.
 
 ## Tech Stack
 
@@ -35,7 +33,7 @@ Generate the static site into `out/`:
 npm run build
 ```
 
-The `out/` directory can be deployed to any static host — Vercel, Netlify, Cloudflare Pages, S3, GitHub Pages, etc. Currently deployed on [Render](https://big-think-consulting.onrender.com).
+The `out/` directory can be deployed to any static host — Vercel, Netlify, Cloudflare Pages, S3, GitHub Pages, etc.
 
 ## Project Structure
 

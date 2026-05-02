@@ -1,49 +1,49 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import {
-  MonitorSmartphone,
-  Search,
-  Server,
-  Shield,
-  Smartphone,
-  LayoutTemplate,
+  BookCheck,
+  ChartPie,
+  FolderSync,
+  Goal,
+  Users,
+  Zap,
 } from "lucide-react";
 
 const features = [
   {
-    icon: MonitorSmartphone,
-    title: "Website Design & Development",
+    icon: Goal,
+    title: "Strategy Development",
     description:
-      "Custom websites built to impress and convert — designed for your brand, optimised for every device, and built for speed.",
+      "Define a clear, compelling direction for your organisation with strategies grounded in market reality and built for long-term advantage.",
   },
   {
-    icon: Server,
-    title: "Web Hosting",
+    icon: Users,
+    title: "Organisational Design",
     description:
-      "Reliable, fast, and secure hosting for your website. We handle the infrastructure, backups, and uptime so you can focus on your business.",
+      "Structure your people, processes, and capabilities to deliver on your strategy and perform at their best.",
   },
   {
-    icon: Search,
-    title: "Search Engine Optimisation",
+    icon: ChartPie,
+    title: "Market Analysis",
     description:
-      "Get found on Google. We improve your rankings with proven on-page, off-page, and technical SEO strategies tailored to your industry.",
+      "Gain deep, actionable insight into your market landscape, competitive dynamics, and emerging opportunities.",
   },
   {
-    icon: LayoutTemplate,
-    title: "WordPress Development",
+    icon: FolderSync,
+    title: "Change Management",
     description:
-      "We build, customise, and maintain powerful WordPress sites — from simple blogs to full e-commerce stores and complex business platforms.",
+      "Navigate complex transformations with confidence, bringing your people along and embedding lasting change across the organisation.",
   },
   {
-    icon: Smartphone,
-    title: "Mobile App Development",
+    icon: BookCheck,
+    title: "Performance Improvement",
     description:
-      "Native and cross-platform mobile apps that deliver great user experiences on iOS and Android — built to your spec, on time.",
+      "Identify and remove the barriers holding your business back, driving meaningful gains in efficiency, quality, and output.",
   },
   {
-    icon: Shield,
-    title: "Website Maintenance",
+    icon: Zap,
+    title: "Executive Advisory",
     description:
-      "Keep your site fast, secure, and up-to-date with our ongoing maintenance and support packages. We monitor so you don't have to.",
+      "A trusted thought partner for senior leaders — providing candid counsel, fresh perspective, and strategic support when it matters most.",
   },
 ];
 

@@ -16,55 +16,67 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Mitchell",
-    designation: "Owner",
-    company: "Mitchell & Co Accounting",
+    designation: "CEO",
+    company: "Apex Financial Group",
     testimonial:
-      "Big Think built us a website we're genuinely proud of. It's fast, looks great on mobile, and we've had multiple clients tell us they chose us because of how professional our site looks. Worth every cent.",
+      "Big Think came in at a moment when we had stalled. Within three months they had helped us identify a market position " +
+      "we hadn't seen, restructure our go-to-market approach, and get our leadership team aligned behind a clear strategy. " +
+      "The impact on our revenue in the following year was significant.",
     avatar: "https://randomuser.me/api/portraits/women/1.jpg",
   },
   {
     id: 2,
     name: "James Thornton",
-    designation: "Founder",
-    company: "Thornton Plumbing",
+    designation: "Managing Director",
+    company: "Meridian Group",
     testimonial:
-      "We were sceptical about spending money on a new website, but Big Think completely changed our mind. Our enquiries have gone up significantly and the site basically sells for us while we're out on the tools.",
+      "What sets Big Think apart is their ability to ask the right questions. They don't just tell you what you want to hear — " +
+      "they challenge your assumptions, bring genuine expertise, and push you to make bolder decisions. " +
+      "Our strategy is sharper and our team is more focused as a result.",
     avatar: "https://randomuser.me/api/portraits/men/2.jpg",
   },
   {
     id: 3,
     name: "Claire Nguyen",
-    designation: "Manager",
-    company: "Riverside Café",
+    designation: "Chief Strategy Officer",
+    company: "Lumen Health",
     testimonial:
-      "Big Think redesigned our site and handled our local SEO. We now appear on the first page of Google for our area, which has made a real difference to foot traffic. Simple, effective, and great to deal with.",
+      "We engaged Big Think to help us navigate a significant organisational redesign. The process was rigorous, " +
+      "the recommendations were clear, and they stayed with us through implementation. " +
+      "Not many consultants do that — and it made all the difference.",
     avatar: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
     id: 4,
     name: "Robert Okafor",
-    designation: "Director",
-    company: "Okafor Legal",
+    designation: "Founder & CEO",
+    company: "Stackline Ventures",
     testimonial:
-      "The mobile app Big Think developed for our firm has transformed how we work with clients. It's polished, intuitive, and our clients love using it. The team was professional and delivered exactly what they promised.",
+      "As a fast-growing business, we needed outside perspective to avoid the pitfalls of scaling too fast. " +
+      "Big Think gave us a clear-eyed view of our risks and opportunities, and a roadmap we could actually execute. " +
+      "They've been an invaluable partner at a critical stage.",
     avatar: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     id: 5,
     name: "Amanda Prescott",
-    designation: "Owner",
-    company: "Prescott Boutique",
+    designation: "General Manager",
+    company: "Harwick Retail",
     testimonial:
-      "Our WordPress site was a mess before Big Think stepped in. They rebuilt it properly, set up our online store, and even showed us how to manage it ourselves. Couldn't be happier with the result.",
+      "The Big Think team understood our industry quickly and didn't waste time getting to the heart of our problem. " +
+      "Their analysis was excellent, but what really impressed us was how practically they thought about implementation. " +
+      "The strategy actually got done, which is rare.",
     avatar: "https://randomuser.me/api/portraits/women/5.jpg",
   },
   {
     id: 6,
     name: "David Chen",
-    designation: "CEO",
-    company: "Chen Fitness Studio",
+    designation: "COO",
+    company: "Prism Technologies",
     testimonial:
-      "We've used Big Think for hosting, SEO, and ongoing maintenance for two years now. They're reliable, responsive, and genuinely understand what our business needs. It's one less thing I have to worry about.",
+      "We brought Big Think in to help us with a performance improvement programme across three divisions. " +
+      "Their structured approach, combined with genuine collaboration with our people, delivered results well above " +
+      "what we had expected. I'd recommend them without hesitation.",
     avatar: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
